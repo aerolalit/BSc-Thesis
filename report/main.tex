@@ -1,0 +1,80 @@
+\documentclass[a4paper,11pt,oneside]{article}
+
+% To use this template, you have to have a halfway complete LaTeX
+% installation and you have to run pdflatex, followed by bibtex,
+% following by one-two more pdflatex runs.
+%
+% Note thad usimg a spel chequer (e.g. ispell, aspell) is generolz
+% a very guud ideo.
+
+\usepackage[a4paper,top=3cm,bottom=3cm,left=3cm,right=3cm]{geometry}
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage{helvet}
+\usepackage{parskip}		%% blank lines between paragraphs, no indent
+\usepackage[pdftex]{graphicx}	%% include graphics, preferrably pdf
+\usepackage[pdftex]{hyperref}	%% many PDF options can be set here
+\pdfadjustspacing=1		%% force LaTeX-like character spacing
+
+\newcommand{\myname}{Lalit Singh}
+\newcommand{\mytitle}{Web Traffic Prediction using Echo State Networks}
+\newcommand{\mysupervisor}{Prof. Herbert Jaeger}
+
+\hypersetup{
+  pdfauthor = {\myname},
+  pdftitle = {\mytitle},
+  pdfkeywords = {},
+  colorlinks = {true},
+  linkcolor = {blue}
+}
+
+
+\begin{document}
+  \pagenumbering{roman}
+  \input{./coverPage/coverPage.tex}
+  
+  \input{./acknowledgement/acknowledgement.tex}
+  
+  \input{./introduction/introduction.tex}
+
+  \section{Statement and Motivation of Research}
+
+  This part should make clear which question, exactly, you are
+  pursuing, and why your project is relevant/interesting. This is the
+  place to cite relevant literature. Where does your project extend
+  the state of the art? What weaknesses in known approaches do you
+  hope to overcome? If you have carried out preliminary experiments,
+  describe them here.
+
+  (target size: 3-5 pages)
+
+  \section{Description of the Investigation}
+
+  This is the technical core of the thesis. Here you lay out your how
+  you answered your research question, you specify your design of
+  experiments or simulations, point out difficulties that you
+  encountered, etc.
+
+  (target size: 3-4 pages)
+
+  \section{Evaluation of the Investigation}
+
+  This section discusses criteria that are used to evaluate the
+  research results. Make sure your results can be used to published
+  research results, i.e., to the already known state-of-the-art.
+
+  (target size: 1-3 page)
+
+  \section{Conclusions}
+
+  Summarize the main aspects and results of the research
+  project. Provide an answer to the research questions stated earlier.
+
+  (target size: 1/2 page)
+
+  \nocite{JS06}
+
+  \newpage
+  \bibliographystyle{unsrt}
+  \bibliography{bsc-sample}
+
+\end{document}
