@@ -1,18 +1,23 @@
 \documentclass[a4paper,11pt,oneside]{article}
 
-% To use this template, you have to have a halfway complete LaTeX
-% installation and you have to run pdflatex, followed by bibtex,
-% following by one-two more pdflatex runs.
-%
 % Note thad usimg a spel chequer (e.g. ispell, aspell) is generolz
 % a very guud ideo.
 
 \usepackage[a4paper,top=3cm,bottom=3cm,left=3cm,right=3cm]{geometry}
 \renewcommand{\familydefault}{\sfdefault}
 \usepackage{helvet}
-\usepackage{parskip}		%% blank lines between paragraphs, no indent
+\usepackage{parskip}		   %% blank lines between paragraphs, no indent
 \usepackage[pdftex]{graphicx}	%% include graphics, preferrably pdf
 \usepackage[pdftex]{hyperref}	%% many PDF options can be set here
+\usepackage{shellesc}           %% run shell commands if you need
+\usepackage{yhmath}%
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{pdfpages}
+\usepackage{subcaption}
+\usepackage{lipsum}
+\usepackage{calc}
+
 \pdfadjustspacing=1		%% force LaTeX-like character spacing
 
 \newcommand{\myname}{Lalit Singh}
@@ -28,17 +33,32 @@
 }
 
 
+
 \begin{document}
   \pagenumbering{roman}
   \input{./coverPage/coverPage.tex}
   
   \input{./acknowledgement/acknowledgement.tex}
   
-  \input{./introduction/introduction.tex}
 
+  \input{./abstract/abstract.tex}
+
+  \newpage
+  \tableofcontents
+
+  \clearpage
+  \pagenumbering{arabic}
+  
+  % This, like the rest, addresses fellow experts from your field (but
+  % not from your particular topic of research). Here you should
+  % technically connect to the main concepts from that field and give an
+  % outline of your project, stating the research/engineering question
+  % that you want to get answered by your project.
+  \input{./introduction/introduction.tex}
+  
   \section{Statement and Motivation of Research}
 
-  This part should make clear which question, exactly, you are
+  This part should make clear which question, exactly, you are 
   pursuing, and why your project is relevant/interesting. This is the
   place to cite relevant literature. Where does your project extend
   the state of the art? What weaknesses in known approaches do you
@@ -47,14 +67,14 @@
 
   (target size: 3-5 pages)
 
+ \input{./backgroundConcepts/backgroundConcepts.tex}
+  
+
   \section{Description of the Investigation}
+  
+  \input{./description/description.tex}
 
-  This is the technical core of the thesis. Here you lay out your how
-  you answered your research question, you specify your design of
-  experiments or simulations, point out difficulties that you
-  encountered, etc.
 
-  (target size: 3-4 pages)
 
   \section{Evaluation of the Investigation}
 
@@ -62,7 +82,7 @@
   research results. Make sure your results can be used to published
   research results, i.e., to the already known state-of-the-art.
 
-  (target size: 1-3 page)
+
 
   \section{Conclusions}
 
@@ -75,6 +95,7 @@
 
   \newpage
   \bibliographystyle{unsrt}
-  \bibliography{bsc-sample}
+  \bibliography{bibliography}
 
 \end{document}
+

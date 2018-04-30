@@ -1,0 +1,2 @@
+The output weight may opptionally be connected back to the reservior however this is not particulary of intrest for this application.
+
