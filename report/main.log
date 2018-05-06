@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.3.24)  29 APR 2018 23:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.3.24)  6 MAY 2018 11:24
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -360,7 +360,17 @@ Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
 \c@lips@count=\count120
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 33.
- (./main.aux)
+ (./main.aux
+
+LaTeX Warning: Label `table:optimized' multiply defined.
+
+
+LaTeX Warning: Label `fig:nrmsevspw' multiply defined.
+
+
+LaTeX Warning: Label `fig:realvspredicted' multiply defined.
+
+)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
@@ -378,8 +388,7 @@ LaTeX Font Info:    ... okay on input line 37.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 37.
 LaTeX Font Info:    ... okay on input line 37.
 LaTeX Font Info:    Try loading font information for OT1+phv on input line 37.
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ot1phv.fd
+ (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
 )
 *geometry* driver: auto-detecting
@@ -475,7 +484,7 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 
-(./coverPage/coverPage.tex <bsc-logo.pdf, id=84, 233.87375pt x 84.315pt>
+(./coverPage/coverPage.tex <bsc-logo.pdf, id=128, 233.87375pt x 84.315pt>
 File: bsc-logo.pdf Graphic file (type pdf)
 
 <use bsc-logo.pdf>
@@ -545,93 +554,232 @@ LaTeX Font Info:    Font shape `OMS/phv/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 29.
 )
 (./backgroundConcepts/backgroundConcepts.tex
-<./backgroundConcepts/images/esn1.png, id=163, 316.42215pt x 172.9662pt>
+<./backgroundConcepts/images/esn1.png, id=219, 316.42215pt x 172.9662pt>
 File: ./backgroundConcepts/images/esn1.png Graphic file (type png)
 
 <use ./backgroundConcepts/images/esn1.png>
 Package pdftex.def Info: ./backgroundConcepts/images/esn1.png used on input lin
 e 14.
 (pdftex.def)             Requested size: 284.52756pt x 155.5388pt.
+LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <10.95> not available
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 22.
 
 
-LaTeX Warning: Citation `aeger_TrainingRNNsTutorial.2005' on page 2 undefined o
-n input line 21.
+LaTeX Warning: Citation `reservoirComputing' on page 2 undefined on input line 
+22.
 
-[2]) (./description/description.tex [3 <./backgroundConcepts/images/esn1.png>]
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--24
+
+ []
+
+[2]
+
+LaTeX Warning: Citation `Jaeger_TrainingRNNsTutorial.2005' on page 3 undefined 
+on input line 25.
+
+[3 <./backgroundConcepts/images/esn1.png>]) (./description/description.tex
 Underfull \hbox (badness 10000) in paragraph at lines 10--15
 
  []
 
-<./description/images/rawSignal.pdf, id=201, 455.55066pt x 349.51694pt>
+<./description/images/rawSignal.pdf, id=256, 455.55066pt x 349.51694pt>
 File: ./description/images/rawSignal.pdf Graphic file (type pdf)
 
 <use ./description/images/rawSignal.pdf>
 Package pdftex.def Info: ./description/images/rawSignal.pdf used on input line 
 18.
 (pdftex.def)             Requested size: 426.79134pt x 327.46332pt.
+ [4] [5 <./description/images/rawSignal.pdf>]
+<./description/images/compare_squeezed.pdf, id=294, 419.38368pt x 364.19826pt>
+File: ./description/images/compare_squeezed.pdf Graphic file (type pdf)
 
-<./description/images/squeezed.pdf, id=204, 426.92387pt x 361.07397pt>
+<use ./description/images/compare_squeezed.pdf>
+Package pdftex.def Info: ./description/images/compare_squeezed.pdf used on inpu
+t line 39.
+(pdftex.def)             Requested size: 213.39568pt x 185.3163pt.
+
+<./description/images/compare_tanh.pdf, id=295, 446.35945pt x 364.19826pt>
+File: ./description/images/compare_tanh.pdf Graphic file (type pdf)
+
+<use ./description/images/compare_tanh.pdf>
+Package pdftex.def Info: ./description/images/compare_tanh.pdf used on input li
+ne 46.
+(pdftex.def)             Requested size: 213.39568pt x 174.11852pt.
+LaTeX Font Info:    External font `yhcmex10' loaded for size
+(Font)              <10> on input line 47.
+LaTeX Font Info:    External font `yhcmex10' loaded for size
+(Font)              <7> on input line 47.
+LaTeX Font Info:    External font `yhcmex10' loaded for size
+(Font)              <5> on input line 47.
+
+<./description/images/compare_zoom_squeezed.pdf, id=296, 446.35945pt x 364.1982
+6pt>
+File: ./description/images/compare_zoom_squeezed.pdf Graphic file (type pdf)
+ <use ./description/images/compare_zoom_squeezed.pdf>
+Package pdftex.def Info: ./description/images/compare_zoom_squeezed.pdf used on
+ input line 51.
+(pdftex.def)             Requested size: 213.39568pt x 174.11852pt.
+
+<./description/images/compare_zoom_tanh.pdf, id=297, 446.35945pt x 364.19826pt>
+File: ./description/images/compare_zoom_tanh.pdf Graphic file (type pdf)
+<use ./description/images/compare_zoom_tanh.pdf>
+Package pdftex.def Info: ./description/images/compare_zoom_tanh.pdf used on inp
+ut line 56.
+(pdftex.def)             Requested size: 213.39568pt x 174.11852pt.
+
+Overfull \hbox (2.3214pt too wide) in paragraph at lines 38--60
+[]$[]$ $[]$
+ []
+
+
+Overfull \hbox (2.3214pt too wide) in paragraph at lines 38--60
+[]$ $[]$ 
+ []
+
+<./description/images/squeezed.pdf, id=298, 426.92387pt x 361.07397pt>
 File: ./description/images/squeezed.pdf Graphic file (type pdf)
 
 <use ./description/images/squeezed.pdf>
-Package pdftex.def Info: ./description/images/squeezed.pdf used on input line 4
-5.
+Package pdftex.def Info: ./description/images/squeezed.pdf used on input line 7
+4.
 (pdftex.def)             Requested size: 213.39568pt x 180.47592pt.
 
-<./description/images/tanh.pdf, id=205, 438.34735pt x 361.07397pt>
+<./description/images/tanh.pdf, id=299, 438.34735pt x 361.07397pt>
 File: ./description/images/tanh.pdf Graphic file (type pdf)
 
 <use ./description/images/tanh.pdf>
-Package pdftex.def Info: ./description/images/tanh.pdf used on input line 52.
+Package pdftex.def Info: ./description/images/tanh.pdf used on input line 81.
 (pdftex.def)             Requested size: 213.39568pt x 175.77629pt.
-LaTeX Font Info:    External font `yhcmex10' loaded for size
-(Font)              <10> on input line 53.
-LaTeX Font Info:    External font `yhcmex10' loaded for size
-(Font)              <7> on input line 53.
-LaTeX Font Info:    External font `yhcmex10' loaded for size
-(Font)              <5> on input line 53.
 
-Overfull \hbox (2.3214pt too wide) in paragraph at lines 44--56
+Overfull \hbox (2.3214pt too wide) in paragraph at lines 73--85
 []$[]$ $[]$ 
  []
 
-[4] [5 <./description/images/rawSignal.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 63--65
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--85
+
+ []
+
+[6 <./description/images/compare_squeezed.pdf> <./description/images/compare_ta
+nh.pdf
+
+pdfTeX warning: pdflatex (file ./description/images/compare_tanh.pdf): PDF incl
+usion: multiple pdfs with page group included in a single page
+> <./description/images/compare_zoom_squeezed.pdf
+
+pdfTeX warning: pdflatex (file ./description/images/compare_zoom_squeezed.pdf):
+ PDF inclusion: multiple pdfs with page group included in a single page
+> <./description/images/compare_zoom_tanh.pdf
+
+pdfTeX warning: pdflatex (file ./description/images/compare_zoom_tanh.pdf): PDF
+ inclusion: multiple pdfs with page group included in a single page
+>]
+Underfull \hbox (badness 10000) in paragraph at lines 94--96
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 63--65
+Underfull \hbox (badness 10000) in paragraph at lines 94--96
 
  []
 
-[6 <./description/images/squeezed.pdf> <./description/images/tanh.pdf
+[7 <./description/images/squeezed.pdf> <./description/images/tanh.pdf
 
 pdfTeX warning: pdflatex (file ./description/images/tanh.pdf): PDF inclusion: m
 ultiple pdfs with page group included in a single page
 >]
 
-LaTeX Warning: Citation `ESNinAudioProcessing' on page 7 undefined on input lin
-e 111.
+LaTeX Warning: Citation `ESNinAudioProcessing' on page 8 undefined on input lin
+e 142.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 110--118
+Underfull \hbox (badness 10000) in paragraph at lines 141--149
 
  []
 
 
-LaTeX Warning: Citation `shortTermMemory' on page 7 undefined on input line 119
+LaTeX Warning: Citation `shortTermMemory' on page 8 undefined on input line 150
 .
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 119--120
+Underfull \hbox (badness 10000) in paragraph at lines 150--151
 
  []
 
-[7]) [8] (./main.bbl
-LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <10.95> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 6.
+[8]
 
+LaTeX Warning: Command \textgreater invalid in math mode on input line 159.
+
+LaTeX Font Info:    Try loading font information for OML+phv on input line 159.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/omlphv.fd
+File: omlphv.fd 
+)
+LaTeX Font Info:    Font shape `OML/phv/m/n' in size <10.95> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 159.
+
+
+LaTeX Warning: Command \textgreater invalid in math mode on input line 159.
+
+
+LaTeX Warning: Command \textgreater invalid in math mode on input line 159.
+
+
+LaTeX Warning: Command \textgreater invalid in math mode on input line 159.
+
+[9] [10]
+
+LaTeX Warning: Citation `jingdai' on page 11 undefined on input line 209.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 208--210
+
+ []
+
+
+LaTeX Warning: Citation `reservoirComputing' on page 11 undefined on input line
+ 220.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 219--221
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 219--221
+
+ []
+
+[11]) (./results/results.tex
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 9.
+See the caption package documentation for explanation.
+
+<./results/images/nrmsevspwrec.pdf, id=611, 577.77153pt x 229.08217pt>
+File: ./results/images/nrmsevspwrec.pdf Graphic file (type pdf)
+
+<use ./results/images/nrmsevspwrec.pdf>
+Package pdftex.def Info: ./results/images/nrmsevspwrec.pdf used on input line 2
+2.
+(pdftex.def)             Requested size: 426.79135pt x 169.2245pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./results/images/realvspredicted.png, id=612, 1284.8pt x 963.6pt>
+File: ./results/images/realvspredicted.png Graphic file (type png)
+
+<use ./results/images/realvspredicted.png>
+Package pdftex.def Info: ./results/images/realvspredicted.png used on input lin
+e 29.
+(pdftex.def)             Requested size: 426.79135pt x 320.09155pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) [12] [13 <./results/images/nrmsevspwrec.pdf>] (./main.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 36--39
 []\OT1/phv/m/n/10.95 Artur Suilin.  kaggle-web-traffic.  [][]$\OT1/cmtt/m/n/10.
 95 https : / / github . com / Arturus /
@@ -643,58 +791,82 @@ Underfull \hbox (badness 1354) in paragraph at lines 41--47
 /cmtt/m/n/10.95 https : / / www . kaggle . com / c /
  []
 
+[14 <./results/images/realvspredicted.png>]
 Missing character: There is no â in font phvr7t!
 Missing character: There is no € in font phvr7t!
 Missing character: There is no “ in font phvr7t!
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 100.
- [9]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 100.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 103.
+ [15]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 103.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 100.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 100.
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 3262005466E5EAEFAF6F99491747A649;1304.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 103.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 103.
 
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: F68A7B17BA9429BBF5799EABAAA137BE;2073
+(rerunfilecheck)             After:  1D8EDC74C091112AD8589B95ABCD63E2;2030.
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 100.
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 103.
  ) 
 Here is how much of TeX's memory you used:
- 9155 strings out of 493014
- 136451 string characters out of 6133351
- 334509 words of memory out of 5000000
- 12456 multiletter control sequences out of 15000+600000
- 31346 words of font info for 72 fonts, out of 8000000 for 9000
+ 9268 strings out of 493014
+ 138946 string characters out of 6133351
+ 336692 words of memory out of 5000000
+ 12526 multiletter control sequences out of 15000+600000
+ 32500 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,18n,46p,1218b,514s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
-exlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/te
-xlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/tex
-live/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texli
-ve/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texliv
-e/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive
-/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2
-016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/201
-6/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2016/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2016/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2016/texmf
--dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/local/texlive/2016/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/local/texlive/2016/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2016/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2016/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2016/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2016/texmf-dist/fo
-nts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2016/texmf-dis
-t/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts
-/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/
-urw/helvetic/uhvro8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public
-/yhmath/yhcmex.pfb>
-Output written on main.pdf (13 pages, 1068753 bytes).
+ 42i,18n,46p,1252b,514s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{table.2} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.10} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.9} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.8} has been referenced but does not exist, 
+replaced by a fixed one
+
+{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/tex
+live/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texl
+ive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texli
+ve/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive
+/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/
+2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2
+016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/20
+16/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2016
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2016/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2016/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2016/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2016/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2016/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/local/texlive/2016/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/local/texlive/2016/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2016/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2016/texmf-dist/font
+s/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2016/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2016/texmf-dist/fonts/t
+ype1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2016/texmf-dist/fon
+ts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type
+1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/h
+elvetic/uhvro8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/yhma
+th/yhcmex.pfb>
+Output written on main.pdf (19 pages, 1296753 bytes).
 PDF statistics:
- 392 PDF objects out of 1000 (max. 8388607)
- 344 compressed objects within 4 object streams
- 63 named destinations out of 1000 (max. 500000)
- 186 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 759 PDF objects out of 1000 (max. 8388607)
+ 523 compressed objects within 6 object streams
+ 91 named destinations out of 1000 (max. 500000)
+ 304 words of extra memory for PDF output out of 10000 (max. 10000000)
 
