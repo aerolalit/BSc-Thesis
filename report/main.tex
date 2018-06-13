@@ -10,7 +10,7 @@
 \usepackage[pdftex]{graphicx}	%% include graphics, preferrably pdf
 \usepackage[pdftex]{hyperref}	%% many PDF options can be set here
 \usepackage{shellesc}           %% run shell commands if you need
-\usepackage{yhmath}%
+%\usepackage{yhmath}%
 \usepackage{amssymb}
 \usepackage{amsmath}
 \usepackage{pdfpages}
@@ -18,12 +18,24 @@
 \usepackage{lipsum}
 \usepackage{calc}
 \usepackage{multirow}
+\usepackage[T2A,T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[russian,english]{babel}
+\usepackage{float}
+\usepackage{url}
+
+\usepackage[backend=bibtex,
+style=numeric,
+bibencoding=ascii
+]{biblatex}
+
+\addbibresource{bibliography.bib}
 
 \pdfadjustspacing=1		%% force LaTeX-like character spacing
 
 \newcommand{\myname}{Lalit Singh}
 \newcommand{\mytitle}{Web Traffic Prediction using Echo State Networks}
-\newcommand{\mysupervisor}{Prof. Herbert Jaeger}
+\newcommand{\mysupervisor}{Prof. Dr. Herbert Jaeger}
 
 \hypersetup{
   pdfauthor = {\myname},
@@ -55,19 +67,20 @@
   % technically connect to the main concepts from that field and give an
   % outline of your project, stating the research/engineering question
   % that you want to get answered by your project.
+    \section{Introduction}
   \input{./introduction/introduction.tex}
   
-  \section{Statement and Motivation of Research}
-
-  This part should make clear which question, exactly, you are 
-  pursuing, and why your project is relevant/interesting. This is the
-  place to cite relevant literature. Where does your project extend
-  the state of the art? What weaknesses in known approaches do you
-  hope to overcome? If you have carried out preliminary experiments,
-  describe them here.
-
-  (target size: 3-5 pages)
-
+  % \section{Statement and Motivation of Research}
+  %
+  % This part should make clear which question, exactly, you are
+  % pursuing, and why your project is relevant/interesting. This is the
+  % place to cite relevant literature. Where does your project extend
+  % the state of the art? What weaknesses in known approaches do you
+  % hope to overcome? If you have carried out preliminary experiments,
+  % describe them here.
+  %
+  % (target size: 3-5 pages)
+\section{Background Concepts}
  \input{./backgroundConcepts/backgroundConcepts.tex}
   
 
@@ -77,28 +90,19 @@
 
 
 
-  \section{Evaluation of the Investigation}
-
-  This section discusses criteria that are used to evaluate the
-  research results. Make sure your results can be used to published
-  research results, i.e., to the already known state-of-the-art.
-  
   \section{Results}
   \input{./results/results.tex}
 
-
-
-  \section{Conclusions}
+  \section{Conclusion and Further Works}
  
 \input{./conclusion/conclusion.tex}
 
-
-\clearpage
-\nocite{JS06}
+% \clearpage
+%\nocite{JS06}
 
   \newpage
-  \bibliographystyle{unsrt}
-  \bibliography{bibliography}
+%   \bibliographystyle{unsrt}
+%   \bibliography{bibliography}
+  \printbibliography
 
 \end{document}
-
