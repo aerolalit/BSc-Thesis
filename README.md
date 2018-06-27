@@ -1,0 +1,1 @@
+Thesis Title: Web Traffic Prediction Using Echo State Networks========================View the report [here](https://github.com/aerolalit/BSc-Thesis/blob/master/report/main.pdf)View the python notebook script [here](https://github.com/aerolalit/BSc-Thesis/blob/master/script/python/main.ipynb)
